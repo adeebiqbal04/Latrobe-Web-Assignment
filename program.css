@@ -4,7 +4,9 @@
 }
 
 body {
-    background-color: rgb(243, 249, 249);
+    background-color: rgb(243,249,249);
+    background-color: white;
+
 }
 .header{
     text-align: center;
@@ -15,7 +17,6 @@ body {
     background-size: cover;
     position: relative;
 }
-
 
 nav {
     overflow: hidden;
@@ -28,10 +29,7 @@ nav {
 
 }
 nav img {
-    width: 250px;
-    
-
-   
+    width: 250px;  
 }
 
 .nav-links
@@ -62,3 +60,12 @@ nav img {
 .nav-links ul li:hover::after {
     width: 100%;
 }
+
+.heading {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 132px;
+    font-size: 27px;
+    color: rgb(68, 41, 41);
+ }

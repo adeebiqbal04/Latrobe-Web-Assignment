@@ -74,7 +74,8 @@ color: rgb(68, 41, 41);
     
 }
 .container h1{
-text-align: center;
+text-align: left;
+margin-left: 380px;
 margin-bottom: 20px;
 font-size: 20px;
 color: rgb(203, 144, 144);
@@ -96,5 +97,7 @@ color: rgb(203, 144, 144);
 .item p {
     text-align: center;
     margin-top: 15px;
+    margin-right: 950px;
+   
 }
 
