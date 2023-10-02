@@ -4,7 +4,7 @@
     
 }
 body{
-    background-color: rgb(243, 249, 249);
+    background-color: rgb(235, 248, 248);
 }
 .header{
     text-align: center;
@@ -66,7 +66,7 @@ justify-content: center;
 align-items: center;
 height: 132px;
 font-size: 27px;
-color: rgb(68, 41, 41);
+color: rgb(109, 87, 87);
 }
 
 .container {
@@ -90,14 +90,14 @@ color: rgb(203, 144, 144);
 }
 
 .item img {
-    max-width: 891px;
-    height: auto;
+    width: 891px;
+    height: 591px;
 }
 
 .item p {
     text-align: center;
     margin-top: 15px;
-    margin-right: 950px;
+    max-width: 891px;
    
 }
 

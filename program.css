@@ -5,12 +5,9 @@
 
 body {
     background-color: rgb(243,249,249);
-    background-color: white;
-
 }
 .header{
     text-align: center;
-    min-height:  100vh;
     width: 100%;
     background-image: linear-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7));
     background-position: center;
@@ -67,5 +64,5 @@ nav img {
     align-items: center;
     height: 132px;
     font-size: 27px;
-    color: rgb(68, 41, 41);
+    color: rgb(109,87,87);
  }
