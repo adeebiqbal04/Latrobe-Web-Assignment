@@ -27,10 +27,11 @@ nav img {
     width: 250px;
 }
 
-.nav-links a
-{
+.nav-links a {
     text-align: right;
 }
+    
+
 .nav-links  a{
     display: inline-block;
     padding: 8px 12px ;
