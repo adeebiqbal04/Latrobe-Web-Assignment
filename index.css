@@ -13,7 +13,6 @@
     position: relative;
 }
 
-
 nav {
     overflow: hidden;
     background-color: rgb(196, 200, 191);
@@ -23,32 +22,28 @@ nav {
     justify-content: space-between;
     align-items: center;
 
-
 }
 nav img {
     width: 250px;
-    align-items:left; 
-
-   
 }
 
-.nav-links a
+.nav-links
 {
     text-align: right;
 }
-.nav-links a {
+.nav-links ul li {
     display: inline-block;
     padding: 8px 12px ;
     position: relative;
 }
 
-.nav-links a {
+.nav-links ul li a {
     color: white;
     text-decoration: none;
     font-size: 26px;
 }
 
-.nav-links a::after {
+.nav-links ul li::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -57,7 +52,7 @@ nav img {
     margin: auto;
     transition: 0.5s;
 }
-.nav-links a:hover::after {
+.nav-links ul li:hover::after {
     width: 100%;
 }
 
