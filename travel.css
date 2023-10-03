@@ -82,6 +82,12 @@ color: rgb(109, 87, 87);
 .transport {
     width: 273px;
     height: auto;
+    padding:20px;
+
+}
+.firstelement{
+    margin-left: 50px;
+    align-items: center;
 }
 
 .transport-images {
@@ -97,3 +103,4 @@ color: rgb(109, 87, 87);
 .transport p{
     color: rgb(135, 99, 99);
 }
+
