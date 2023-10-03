@@ -66,34 +66,26 @@ nav img {
     width: 100%;
 }
 
-.map {
-    font-size: 0; 
     
-}
 .heading h2{
 text-align: center;
 margin-bottom: 10px;
 font-size: 50px;
-color: rgb(68,41,41);
+color: rgb(109, 87, 87);
 }
 
-.item  {
+.container{
     display: flex;
-    justify-content: space-between;
-    font-size: 16px;
-    margin: 20px;
-    align-items: center;
-}
-
-.item img {
-    max-width:500px;
+    flex-wrap: wrap;
+    } 
+ 
+.transport {
+    width: 273px;
     height: auto;
-    display: block;
-    margin-left: -19px;
-    margin-right: 20px;
 }
 
-.item a {
-    text-align: left;
-    width: 100%;
+.transport-images {
+    max-width: 100%;
+    height: 182px;
+    
 }

@@ -4,7 +4,7 @@
 }
 
 body {
-    background-color: rgb(243,249,249);
+    background-color: rgb(215, 237, 237);
 }
 .header{
     text-align: center;
@@ -64,5 +64,38 @@ nav img {
     align-items: center;
     height: 132px;
     font-size: 27px;
-    color: rgb(109,87,87);
+    color: rgb(107, 79, 79);
  }
+
+ .info  {
+     text-align: center;
+     margin-bottom: 60px;
+     color: rgb(109, 93, 93);
+    
+
+ }
+
+
+ .table {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    margin-top: 10px;
+    margin-bottom:100px;
+
+ }
+
+ table {
+    width: 70%;
+ }
+ 
+ th,td {
+    padding: 2%;
+    border: 1px solid rgb(158, 176, 165);
+    text-align: left;
+    
+    color: rgb(104, 73, 73);
+    
+ }
+
