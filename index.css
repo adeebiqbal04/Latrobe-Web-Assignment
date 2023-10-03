@@ -11,6 +11,7 @@
     background-position: center;
     background-size: cover;
     position: relative;
+    z-index: 10;
 }
 
 nav {
@@ -57,3 +58,35 @@ nav img {
 }
 
 
+.text-box
+{
+    width: 100%;
+    color: white;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    text-align: center;
+    z-index: 5;
+ 
+
+}
+.text-box h1 {
+    font-size: 60px;
+    margin-top: 100px; 
+    
+}
+
+.text-box p {
+    margin:auto;
+    font-size: 26px;
+    text-align: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top:90px;   
+}
+
+.text-box a {
+    color:white;
+    text-decoration:underline ;
+    text-decoration-color: rgba(59, 148, 221, 0.979);
+}
