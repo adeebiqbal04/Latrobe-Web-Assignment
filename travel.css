@@ -85,10 +85,6 @@ color: rgb(109, 87, 87);
     padding:20px;
 
 }
-.firstelement{
-    margin-left: 50px;
-    align-items: center;
-}
 
 .transport-images {
     max-width: 100%;
@@ -98,9 +94,22 @@ color: rgb(109, 87, 87);
 
 .transport h2 {
     color: rgb(109, 93, 93);
+    font-size: 25px;
 }
 
 .transport p{
     color: rgb(135, 99, 99);
+    font-size: 19px;
 }
 
+.centre{
+    display: grid;
+    justify-content: center;
+    padding-bottom: 100px;
+
+}
+
+.map h2{
+    color: rgb(109, 93, 93);
+    font-size: 25px;
+}
