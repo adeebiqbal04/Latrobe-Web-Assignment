@@ -36,19 +36,19 @@ nav img {
 {
     text-align: right;
 }
-.nav-links ul li {
+.nav-links  {
     display: inline-block;
     padding: 8px 12px ;
     position: relative;
 }
 
-.nav-links ul li a {
+.nav-links  a {
     color: white;
     text-decoration: none;
     font-size: 26px;
 }
 
-.nav-links ul li  ::after {
+.nav-links a  ::after {
     content: '';
     width: 0%;
     height: 2px;
@@ -57,7 +57,7 @@ nav img {
     margin: auto;
     transition: 0.5s;
 }
-.nav-links ul li :hover::after {
+.nav-links a :hover::after {
     width: 100%;
 }
 
