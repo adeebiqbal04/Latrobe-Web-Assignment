@@ -89,3 +89,11 @@ color: rgb(109, 87, 87);
     height: 182px;
     
 }
+
+.transport h2 {
+    color: rgb(109, 93, 93);
+}
+
+.transport p{
+    color: rgb(135, 99, 99);
+}

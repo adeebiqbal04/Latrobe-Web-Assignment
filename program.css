@@ -99,3 +99,10 @@ nav img {
     
  }
 
+ .astrick
+ {
+    display: flex;
+    justify-content: bottom;
+    align-items: bottom;
+    font-size: 10px;
+ }
